@@ -112,7 +112,7 @@ export async function create(env: EnvInputs, payload: Payload): Promise<IFetchRe
     },
     {
       op: "add",
-      path: "/fields/Microsoft.VSTS.Common.StoryPoints",
+      path: "/fields/Microsoft.VSTS.Scheduling.StoryPoints",
       value: 3
     },
     {
