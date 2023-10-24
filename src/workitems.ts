@@ -109,7 +109,17 @@ export async function create(env: EnvInputs, payload: Payload): Promise<IFetchRe
       op: "add",
       path: "/fields/Microsoft.VSTS.Common.BacklogPriority",
       value: 1
-    } 
+    },
+    {
+      op: "add",
+      path: "/fields/Microsoft.VSTS.Common.StoryPoints",
+      value: 3
+    },
+    {
+      op: "add",
+      path: "/fields/Microsoft.VSTS.Common.WorkType",
+      value: "4a. Code, test or deploy internally developed Software"
+    }
   ]
 
   // if there is text, then save it to the description
